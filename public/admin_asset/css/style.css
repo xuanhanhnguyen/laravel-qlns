@@ -1,0 +1,14 @@
+.navbar .dropdown:hover > .dropdown-menu {
+  opacity: 1;
+  z-index: 99;
+  transition: all 1s;
+  display: block;
+}
+.navbar .dropdown-menu {
+  opacity: 0;
+  z-index: -1;
+  transition: all 1s;
+  left: auto;
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */
